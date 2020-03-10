@@ -1,0 +1,32 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":59102,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/santander/development/flutter-projects/carrinho_compras/app/test/repositories/general_api_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/santander/development/flutter-projects/carrinho_compras/app/test/repositories/general_api_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"suite":{"id":2,"platform":"vm","path":"/Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart"},"type":"suite","time":14}
+{"test":{"id":3,"name":"loading /Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":14}
+{"suite":{"id":4,"platform":"vm","path":"/Users/santander/development/flutter-projects/carrinho_compras/app/test/widget_test.dart"},"type":"suite","time":15}
+{"test":{"id":5,"name":"loading /Users/santander/development/flutter-projects/carrinho_compras/app/test/widget_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":15}
+{"suite":{"id":6,"platform":"vm","path":"/Users/santander/development/flutter-projects/carrinho_compras/app/test/bloc/carrinho_bloc_test.dart"},"type":"suite","time":17}
+{"test":{"id":7,"name":"loading /Users/santander/development/flutter-projects/carrinho_compras/app/test/bloc/carrinho_bloc_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":17}
+{"count":4,"type":"allSuites","time":18}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2610}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3452}
+{"group":{"id":8,"suiteID":2,"parentID":null,"name":null,"metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":3456}
+{"group":{"id":9,"suiteID":2,"parentID":8,"name":"Bloc Carrinho","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":8,"column":3,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart"},"type":"group","time":3456}
+{"test":{"id":10,"name":"Bloc Carrinho add product","suiteID":2,"groupIDs":[8,9],"metadata":{"skip":false,"skipReason":null},"line":9,"column":5,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart"},"type":"testStart","time":3457}
+{"testID":10,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3518}
+{"test":{"id":11,"name":"Bloc Carrinho total product","suiteID":2,"groupIDs":[8,9],"metadata":{"skip":false,"skipReason":null},"line":14,"column":5,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart"},"type":"testStart","time":3518}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3525}
+{"test":{"id":12,"name":"Bloc Carrinho Remove product","suiteID":2,"groupIDs":[8,9],"metadata":{"skip":false,"skipReason":null},"line":17,"column":5,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/blocs/carrinho_bloc_test.dart"},"type":"testStart","time":3526}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3539}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3836}
+{"group":{"id":13,"suiteID":4,"parentID":null,"name":null,"metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3836}
+{"test":{"id":14,"name":"Counter increments smoke test","suiteID":4,"groupIDs":[13],"metadata":{"skip":false,"skipReason":null},"line":107,"column":3,"url":"package:flutter_test/src/widget_tester.dart","root_line":13,"root_column":3,"root_url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/widget_test.dart"},"type":"testStart","time":3837}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4128}
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4296}
+{"group":{"id":15,"suiteID":6,"parentID":null,"name":null,"metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":4297}
+{"group":{"id":16,"suiteID":6,"parentID":15,"name":"Bloc Carrinho","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":6,"column":3,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/bloc/carrinho_bloc_test.dart"},"type":"group","time":4297}
+{"test":{"id":17,"name":"Bloc Carrinho add product","suiteID":6,"groupIDs":[15,16],"metadata":{"skip":false,"skipReason":null},"line":8,"column":5,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/bloc/carrinho_bloc_test.dart"},"type":"testStart","time":4297}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4355}
+{"test":{"id":18,"name":"Bloc Carrinho Total Products","suiteID":6,"groupIDs":[15,16],"metadata":{"skip":false,"skipReason":null},"line":18,"column":5,"url":"file:///Users/santander/development/flutter-projects/carrinho_compras/app/test/bloc/carrinho_bloc_test.dart"},"type":"testStart","time":4355}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4359}
+{"success":true,"type":"done","time":4372}
