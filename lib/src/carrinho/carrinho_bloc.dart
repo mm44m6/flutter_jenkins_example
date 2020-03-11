@@ -10,19 +10,19 @@ class CarrinhoBloc extends BlocBase {
     _produtosCarrinhoController.add([]);
   }
 
-  var _produtosCarrinhoController = BehaviorSubject.seeded(<Produto>[]);
+  final _produtosCarrinhoController = BehaviorSubject.seeded(<Produto>[]);
   Observable<List<Produto>> get produtosCarrinho =>
       _produtosCarrinhoController.stream;
 
   Observable<int> get totalCarrinho => _totalCarrinhoController.stream;
 
-  var _addItemCarrinhoController = BehaviorSubject<Produto>();
+  final _addItemCarrinhoController = BehaviorSubject<Produto>();
   Sink<Produto> get addItemCarrinho => _addItemCarrinhoController.sink;
 
-  var _removeItemCarrinhoController = BehaviorSubject<Produto>();
+  final _removeItemCarrinhoController = BehaviorSubject<Produto>();
   Sink<Produto> get removeItemCarrinho => _removeItemCarrinhoController.sink;
 
-  var _totalCarrinhoController = BehaviorSubject<int>();
+  final _totalCarrinhoController = BehaviorSubject<int>();
 
   _handleAddItemCarrinho(Produto produto) {
     _listaProdutos.add(produto);
@@ -44,7 +44,6 @@ class CarrinhoBloc extends BlocBase {
   }
 
   void dispose() {
-    print("dispose");
     _produtosCarrinhoController.close();
     _totalCarrinhoController.close();
   }

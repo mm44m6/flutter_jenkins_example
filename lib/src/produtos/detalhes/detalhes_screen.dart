@@ -20,7 +20,7 @@ class _DetalhesScreenState extends State<DetalhesScreen> {
   final Produto produto;
 
   final carrinhoBloc = BlocProvider.getBloc<CarrinhoBloc>();
-  var globalKey = RectGetter.createGlobalKey();
+  final globalKey = RectGetter.createGlobalKey();
 
   _DetalhesScreenState(this.produto);
   @override
